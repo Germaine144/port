@@ -9,7 +9,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 35px 12px;
+    padding: 25px 12px;
     background-color:black ;
     display: flex;
     justify-content: space-between;
@@ -30,4 +30,76 @@
 }
 span{
     color: orangered;
+}
+#navbar a{
+font-size: 18px;
+color: white;
+font-weight: 120px;
+margin: 0 30px;
+border-bottom: 3px solid transparent;
+text-decoration: none;
+}
+#navbar a:hover{
+    color: orangered;
+}
+.Contact{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+.Contact:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 0 0 25px orangered;   
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:30px 11px ;
+    width: 100%;
+    min-height: 100vh;
+}
+.home-content{
+    max-width: 800px;
+}
+.home-content h3{
+    font-size: 42px;
+}
+.home-content h1{
+    font-size: 52px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+.btn{
+   width: 345ps;
+   display: flex;
+   gap: 10px; 
+}
+.btn-1{
+    padding: 8px 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.img{
+    border-radius: 50%;
+    width: ;
 }
