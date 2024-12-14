@@ -194,3 +194,30 @@ span {
    width: 100%;
    padding: 1.5em;
 }
+.project img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+.project h2 {
+    text-align: center;
+   }
+.projects {
+ display: flex;
+ justify-content: center;
+ gap: ;
+ padding: 20px;
+}
+.projects p{
+    width: 90%;
+    margin: 18px auto;
+    float: left;
+   }
+   .footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: black;
+   }
+   
