@@ -185,45 +185,83 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; 
+    gap: 10px;
 }
 
 .service-box {
-    background-color:orangered ;
-    color:black ;
+    background-color: orangered;
+    color: black;
     height: 250px;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s ease;
 }
+
 .service-box:hover {
     background-color: white;
     color: black;
     transform: scale(1.03);
 }
-.service-box .service-info{
-  display: flex; 
-  flex-direction: column;
-  text-align: left;
-  max-width: 400px;
-  justify-content: center;
-  align-items: baseline;
-  padding: 30px;
-  margin: 20px;
+
+.service-box .service-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 400px;
+    justify-content: center;
+    align-items: baseline;
+    padding: 30px;
+    margin: 20px;
+}
+.registartion-form{
+    align-items: center;
+    padding: 100px;
+    
 }
 
-.contact-form h2 {
+.registartion-form h2 {
+    font-size: 40px;
     text-align: center;
-    margin-top: 3em;
-    margin-bottom: ;
-    font-size: 36px;
+    margin: 40px 0;
 }
 
-.contact-form form {
-    max-width: 70;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3em;
+.registartion-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.registartion-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    border: 1px solid orangered;
+    width: 50%;
+    border-radius: 6px;
+
+}
+textarea{
+    font-size: 16px;
+    padding: 15px 10px;
+    border: 1px solid orangered;
+    width: 50%;
+    border-radius: 6px; 
+    margin: 30px;
+}
+.btn1{
+    padding: 8px 18px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
 }
 
 .input-box {
@@ -232,7 +270,6 @@ span {
     justify-content: center;
 
 }
-
 .input-box {
     width: 100%;
     padding: 1.5em;
